@@ -1,0 +1,28 @@
+{
+  "name": "remove-property",
+  "version": "1.0.0",
+  "description": "Removes property of an object",
+  "main": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flejz/remove-property.git"
+  },
+  "keywords": [
+    "javascript",
+    "json",
+    "property",
+    "prop",
+    "remove",
+    "delete"
+  ],
+  "author": "@flejz",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/flejz/remove-property/issues"
+  },
+  "homepage": "https://github.com/flejz/remove-property#readme",
+  "dependencies": {
+    "array-reducer": "^1.0.3"
+  }
+}
