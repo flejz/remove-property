@@ -1,6 +1,6 @@
 {
   "name": "remove-property",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Removes property of an object",
   "main": "src/index.js",
   "scripts": {},

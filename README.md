@@ -6,7 +6,8 @@
 [shield-size]: https://img.shields.io/github/size/flejz/remove-property/src/index.js
 [shield-release]: https://img.shields.io/github/package-json/v/flejz/remove-property
 
-Never carry anymore about async reduce an array.
+Create a new object without the unwanted properties from the original one.
+
 Install with:
 
 ```sh
@@ -34,7 +35,7 @@ flush(obj, param, param1, param2, ..., paramN)
 const flush = require('remove-property')
 
 const obj = {
-  name: 'John Heinz Lopes'
+  name: 'John Heinz Lopes',
   password: '1234!@#$',
   address: 'Street Calle Rua',
 }
@@ -48,7 +49,8 @@ const result = flush(obj, 'password', ['address'])
 const result = flush(obj, ...['password', 'address'])
 
 
-console.log(result) // { name: 'John Heinz Lopes' }
+console.log(obj);    // { name: 'John Heinz Lopes', password: '1234!@#$', address: 'Street Calle Rua' }
+console.log(result); // { name: 'John Heinz Lopes' }
 ```
 
 > PS: all array will be flattened
